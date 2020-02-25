@@ -1,0 +1,16 @@
+.Target-root {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.Target-root::before,
+.Target-root::after {
+    position: absolute;
+    content: " ";
+    height: 200px;
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.Target-root:after {
+    transform: rotate(-90deg);
+}

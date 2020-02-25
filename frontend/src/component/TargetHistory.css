@@ -1,0 +1,14 @@
+.TargetHistory-root {
+    width: 100%;
+    display: table;
+}
+
+.TargetHistory-row-root {
+    display: table-row;
+}
+
+.TargetHistory-cell-root {
+    display: table-cell;
+    border-bottom: 1px solid rgba(81, 81, 81, 1);
+    width: 50%;
+}

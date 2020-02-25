@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for generating shooting events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduards Mukans",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.2.1"
+  }
+}

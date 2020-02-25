@@ -1,0 +1,18 @@
+.Button-root {
+    color: rgba(0, 0, 0, 0.75);
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    margin: 15px;
+    font-size: 0.875rem;
+}
+
+.Button-emergency {
+    background-color: #f54d4dd7;
+    color: rgba(0, 0, 0, 0.87);
+}

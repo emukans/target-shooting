@@ -1,0 +1,25 @@
+.Shot-icon {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    opacity: 0.5;
+}
+.Shot-icon:before,
+.Shot-icon:after {
+    position: absolute;
+    content: " ";
+    height: 8px;
+    width: 2px;
+    top: 4px;
+    left: 0;
+    background-color: #333;
+}
+.Shot-icon:before {
+    transform: rotate(45deg);
+}
+.Shot-icon:after {
+    transform: rotate(-45deg);
+}
+.Shot-icon:hover {
+    opacity: 1;
+}
